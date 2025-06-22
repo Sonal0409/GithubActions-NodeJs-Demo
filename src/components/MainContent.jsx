@@ -7,6 +7,8 @@ function MainContent() {
 
   function toggleHelp() {
     setHelpVisible((isVisible) => !isVisible);
+    setHelpVisible((isVisible) => !isVisible);
+
   }
 
   return (
@@ -18,3 +20,4 @@ function MainContent() {
 }
 
 export default MainContent;
+
